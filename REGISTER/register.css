@@ -1,0 +1,19 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2%;
+}
+
+.Register {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    width: 85%;
+}
+
+.boton {
+    display: flex;
+justify-content: center;
+}
