@@ -4,7 +4,7 @@ main {
     align-items: center;
     flex-direction: column;
     padding-top: 10%;
-    font-family: 'MyFont' sans-serif;
+    font-family: 'MycustomFont', sans-serif;
 
 }
 
@@ -13,21 +13,23 @@ main {
     flex-direction: column;
     padding-top: 2%;
     width: 50%;
-    font-family: 'MyFont' sans-serif;
+    font-family: 'MycustomFont', sans-serif;
 
 }
 
 .boton {
     display: flex;
     justify-content: center;
-    transition: 0.2s;
+    align-items: center;
 }
 
-.boton:hover {
+button:hover {
     transform: scale(1.2);
+    transition: 0.2s;
+
 }
 
 @font-face {
-    font-family: 'MyFont' sans-serif;
-    src: url(BebasNeue-Regular.ttf) format('truetype');
+    font-family: 'MyCustomFont';
+    src: url('BebasNeue-Regular.ttf') format('truetype');
 }
