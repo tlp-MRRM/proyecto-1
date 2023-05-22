@@ -1,6 +1,6 @@
 body {
-  background: radial-gradient(rgb(188, 226, 113), #5fbfff);
   color: rgb(255, 255, 255);
+  background: radial-gradient(rgb(188, 226, 113), #5fbfff);
 }
 
 main {
@@ -8,31 +8,36 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .Register {
   display: flex;
   flex-direction: column;
   width: 25%;
+  height: 25%;
   background-color: white;
-  border: 25px solid;
+  border: 22px solid;
   border-radius: 3%;
   border-color: white;
   color: black;
-  padding: 0%;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 button:hover {
-  transform: scale(1.2);
-  transition: 0.2s ease-in-out;
+transition: 0.2s ease-in-out;
+background-color: #4b95c7 !important ;  
+border-color: #4b95c7 !important;
 }
+
 .boton {
   display: flex;
   justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  padding-bottom: 1%;
 }
-
 
 @media screen and (max-width: 768px) {
     .Register {
