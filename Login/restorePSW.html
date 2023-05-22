@@ -16,10 +16,16 @@
   <body>
     <main>
       <div class="login">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="login.html">Iniciar sesion</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Olvide mi contraseña</li>
+            </ol>
+          </nav>
         <h1 class="iniciarS">Restaurar mi contraseña</h1>
         <form>
           <div class="mb-3">
-            <h6>Introduce tu correo electrónico y te enviaremos un enlace para que vuelvas a entrar en tu cuenta. </h6>
+            <h6>Introduce tu correo electrónico y te enviaremos un enlace para que recuperes tu contraseña. </h6>
             <input
               type="email"
               class="form-control"
@@ -59,7 +65,7 @@
                     aria-label="Close"
                   ></button>
                 </div>
-                <div class="modal-body">El email se ha enviado a su correo</div>
+                <div class="modal-body">El email se ha enviado correctamente</div>
                 <div class="modal-footer">
                   <a href="login.html" class="boton">Volver a iniciar sesion</a>
                     

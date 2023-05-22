@@ -30,6 +30,11 @@ a.boton {
   border-radius: 5px;
   text-decoration: none;
 }
+.boton:hover {
+    background-color: rgb(127, 152, 231) !important;  
+    transition: 0.2s ease-in-out;
+    border-color: rgb(102, 120, 179) !important;
+    }
 form {
   display: flex;
   flex-direction: column;
@@ -38,4 +43,7 @@ form {
 }
 h6 {
   font-weight: 400;
+}
+a {
+    color: black;
 }

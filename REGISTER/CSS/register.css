@@ -33,9 +33,6 @@ button:hover {
   justify-content: center;
 }
 
-placeholder {
-  color: aqua;
-}
 
 @media screen and (max-width: 768px) {
     .Register {
