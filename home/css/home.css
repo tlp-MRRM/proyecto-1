@@ -1,8 +1,9 @@
 .logo, .profile_logo{
     width: 45px;
 }
-.logo, .profile_logo:hover {
-    border: white solid;
+.logo:hover, .profile_logo:hover {
+    transform: scale(1.1);
+    
 }
 .profile_logo {
     padding: 0;
@@ -25,5 +26,6 @@
     border-color: black;
 }
 .boton-buscar:hover {
-    background-color: rgb(188, 226, 113);
+    background-color: rgb(151, 151, 151);
+    color: white
 }
