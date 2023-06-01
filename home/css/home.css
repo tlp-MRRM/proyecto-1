@@ -1,5 +1,8 @@
-img {
+.logo, .profile_logo{
     width: 45px;
+}
+.logo, .profile_logo:hover {
+    border: white solid;
 }
 .profile_logo {
     padding: 0;
@@ -12,4 +15,15 @@ img {
     margin-left: 0.5%;
     margin-bottom: 0;
     margin-top: 0.5%;
+    
+}
+.header {
+    background-color: rgb(225, 225, 225) !important;
+}
+.boton-buscar {
+    background-color: white;
+    border-color: black;
+}
+.boton-buscar:hover {
+    background-color: rgb(188, 226, 113);
 }
