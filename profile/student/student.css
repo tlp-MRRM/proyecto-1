@@ -1,0 +1,22 @@
+body {
+  color: rgb(255, 255, 255);
+  background: radial-gradient(rgb(255, 255, 255), #a5a5a5);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.card  {
+  border-radius: 10px;
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+} 
+
+h1, h2, h3, h4, h5, p, ul, li {
+  color: black  
+}
