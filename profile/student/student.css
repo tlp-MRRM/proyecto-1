@@ -12,11 +12,37 @@ main {
   padding-bottom: 3%;
 }
 
+
 .card  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
   border-radius: 10px;
-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  height: 220px;
 } 
+
 
 h1, h2, h3, h4, h5, p, ul, li {
   color: black  
+}
+
+img {
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  background-image: url(logo.png);
+  width: 45px;
+  height: 45px;
+  background-size: cover;
+  transition: 0.1s ease-in-out;
+}
+
+.logo:hover {
+ transform: scale(1.2);
+  background-image: url(logo_hover.png);
 }
