@@ -1,6 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
+
 body {
   color: rgb(255, 255, 255);
-  background: radial-gradient(rgb(255, 255, 255), #090909);
+  background: radial-gradient(rgb(255, 255, 255), rgb(112, 184, 255));
+  font-family: 'Alegreya Sans', sans-serif;
+
 }
 
 main {
@@ -12,16 +17,28 @@ main {
   padding-bottom: 3%;
 }
 
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+
+}
+
+.perfil {
+width: 210px;
+}
+
 
 .card  {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 20px;
+  flex-direction: row;
   border-radius: 10px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  height: 220px;
+  width: 700px;
 } 
+
 
 
 h1, h2, h3, h4, h5, p, ul, li {
@@ -29,7 +46,8 @@ h1, h2, h3, h4, h5, p, ul, li {
 }
 
 img {
-  border-radius: 50%;
+  background-color: aliceblue;
+  border-radius: 15%;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -44,4 +62,24 @@ img {
 .logo:hover {
  transform: scale(1.2);
   background-image: url(logo_hover.png);
+}
+
+.config {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.editar {
+  background-image: url(98f42fc6b05a.png);
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  transition: 0.1s ease-in-out;
+}
+
+.editar:hover {
+  transform: scale(1.2);
+  background-image: url(98f42fc6b05a.png);
 }
