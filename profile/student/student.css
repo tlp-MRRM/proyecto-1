@@ -1,6 +1,6 @@
 body {
   color: rgb(255, 255, 255);
-  background: radial-gradient(rgb(255, 255, 255), #a5a5a5);
+  background: radial-gradient(rgb(255, 255, 255), #090909);
 }
 
 main {
@@ -29,8 +29,7 @@ h1, h2, h3, h4, h5, p, ul, li {
 }
 
 img {
-  background-color: white;
-  border-radius: 25px;
+  border-radius: 50%;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
