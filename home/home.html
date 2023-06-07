@@ -15,14 +15,16 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary header ps-3">
             <div class="container-fluid">
-              <a class="navbar-brand" href="home.html"><img class="logo" src="img/logo.png" alt="logo"><img src="img/logo_hover.png" class="logo_hover"></a>
+              <a class="navbar-brand" href="home.html">
+                <div class="logo"></div>
+              </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse nav" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link profile_logo" href="#"><img class="profile_logo_img" src="img/profile_logo.png" alt="profile.logo"><img src="img/profile_logo_hover.png" class="profile_logo_hover"></a>
+                    <a class="nav-link profile_logo" href="/profile/student/student.html"><div class="logo-profile"></div></a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -78,6 +80,55 @@
         </div>
       </aside>
     </main>
+    <footer class="footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-5">
+                  <h5><i class="fa fa-road"></i> University of Knowledge</h5>
+                  <div class="row">
+                      <div class="col-6">
+                          <ul class="list-unstyled">
+                              <li><a href="">Acerca de nosotros</a></li>
+                              <li><a href="">Instituciones asociadas</a></li>
+                              <li><a href="">Trabaja con nosotros</a></li>
+                          </ul>
+                      </div>
+                      <div class="col-6">
+                          <ul class="list-unstyled">
+                              <li><a href="">Documentacion</a></li>
+                              <li><a href="">Ayuda</a></li>
+                              <li><a href="">Terminos legales</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <ul class="nav">
+                      <li class="nav-item"><a href="" class="nav-link pl-0"><i class="fa fa-facebook fa-lg"></i></a></li>
+                      <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-twitter fa-lg"></i></a></li>
+                      <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-github fa-lg"></i></a></li>
+                      <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-instagram fa-lg"></i></a></li>
+                  </ul>
+                  <br>
+              </div>
+              <div class="col-md-2">
+                  <h5 class="text-md-right">Contact Us</h5>
+                  <hr>
+              </div>
+              <div class="col-md-5">
+                  <form>
+                      <fieldset class="form-group">
+                          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                      </fieldset>
+                      <fieldset class="form-group">
+                          <textarea class="form-control" id="exampleMessage" placeholder="Message"></textarea>
+                      </fieldset>
+                      <fieldset class="form-group text-xs-right">
+                          <button type="button" class="btn btn-secondary-outline btn-lg">Send</button>
+                      </fieldset>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
