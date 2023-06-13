@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
 
-
 body {
   color: rgb(255, 255, 255);
   background: radial-gradient(rgb(255, 255, 255), rgb(112, 184, 255));
@@ -20,16 +19,15 @@ main {
 .info {
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
 
 }
 
 .perfil {
-width: 210px;
+  width: 210px;
 }
 
-
-.card  {
+.card {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,12 +35,17 @@ width: 210px;
   border-radius: 10px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   width: 700px;
-} 
+}
 
-
-
-h1, h2, h3, h4, h5, p, ul, li {
-  color: black  
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+li {
+  color: black
 }
 
 img {
@@ -52,34 +55,71 @@ img {
 }
 
 .logo {
-  background-image: url(logo.png);
+  background-image: url(img/profile_logo.png);
   width: 45px;
   height: 45px;
   background-size: cover;
   transition: 0.1s ease-in-out;
 }
-
 .logo:hover {
- transform: scale(1.2);
-  background-image: url(logo_hover.png);
+  transform: scale(1.2);
+  background-image: url(img/logo_hover.png);
+}
+#cabecera {
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  background-color: rgb(237, 237, 237);
 }
 
-.config {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
+header li {
+  font-size: 30px;
 }
+
 
 .editar {
-  background-image: url(98f42fc6b05a.png);
-  width: 20px;
-  height: 20px;
+  background-image: url(img/editar.png);
+  width: 25px;
+  height: 25px;
   background-size: cover;
   transition: 0.1s ease-in-out;
 }
 
 .editar:hover {
+  transform: scale(2);
+  background-image: url(img/editar.png);
+}
+
+
+
+
+.navegción {
+  background-color: white;
+  padding: 15px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.boton {
+  background-color: white;
+  border-color: white;
+  
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: 0.1s ease-in-out;
+}
+
+.boton:hover {
+  background-color: white ;
   transform: scale(1.2);
-  background-image: url(98f42fc6b05a.png);
+}
+
+#sinsub {
+  text-decoration: none;
+}
+
+.botones {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  column-gap: 2rem;
+
 }
