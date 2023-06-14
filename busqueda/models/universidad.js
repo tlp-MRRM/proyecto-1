@@ -8,7 +8,7 @@ const universidad1 = {
         calle: 'Maipú',
         altura: 4625,
         cPostal: 3600,
-        mapa: `https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=es&amp;q=Maip%C3%BA%204625,%20P3600%20MQC,%20Formosa+(UCP%20UBIC)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed`
+        mapa: 'https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=es&amp;q=Maip%C3%BA%204625,%20P3600%20MQC,%20Formosa+(UCP%20UBIC)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed'
     },
     yearFundation: 1993,
     academicPrograms: {
@@ -110,8 +110,10 @@ const universidad2 = {
         calle: 'Av. Dr. Luis Gutniski',
         altura: 3200,
         cPostal: 3600,
-        mapa:`<div style="width: 100%"><iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=es&amp;q=3200%20Avenue%20Formosa,%20Av.%20Dr.%20Luis%20Gutniski,%20P3600%20CMQ,%20Formosa+(UNAF%20UBIC)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/car-satnav-gps/">Car GPS</a></iframe></div>`
+        mapa:'https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=es&amp;q=3200%20Avenue%20Formosa,%20Av.%20Dr.%20Luis%20Gutniski,%20P3600%20CMQ,%20Formosa+(UNAF%20UBIC)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed'
     },
+
+    website: 'http://www.unf.edu.ar/',
     yearFundation: 1988,
     academicPrograms: {
         carrerasDeGradoYPregrado: {
@@ -123,7 +125,7 @@ const universidad2 = {
                     finalTitle: 'Contador Público'
                 },
                 licEnComercioExterior: {
-                    name: 'Lic. en Comercio Exterior',
+                    name: 'Licenciatura en Comercio Exterior',
                     duration: 5,
                     modality: 'Presencial',
                     middleTitle: 'Técnico en comercio exterior',

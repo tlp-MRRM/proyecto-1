@@ -74,6 +74,7 @@ section .carrusel .btn-next {
   align-items: center;
   background-color: rgb(237, 237, 237);
   padding: 20px;
+  margin: 30px;
   border-radius: 10px;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -111,10 +112,33 @@ section .carrusel .btn-next {
 .verMasUniv {
   text-decoration: none;
   color: black;
-  background-color: aliceblue;
+  background-color: #f0f0f0;
   border: 1px rgba(0, 0, 0, 0.221) solid;
   border-radius: 5px;
   padding: 4px;
   padding-left: 8px;
   padding-right: 8px;
+}
+
+.contenedor-btn-vermas {
+  display: flex;
+  justify-content: center;
+}
+
+.resultados-cuadro {
+  width: 60%;
+}
+.resultados {
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.noticias {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
