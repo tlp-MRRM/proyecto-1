@@ -55,7 +55,7 @@ img {
 }
 
 .logo {
-  background-image: url(img/profile_logo.png);
+  background-image: url(/profile/img/logo.png);
   width: 45px;
   height: 45px;
   background-size: cover;
@@ -63,7 +63,7 @@ img {
 }
 .logo:hover {
   transform: scale(1.2);
-  background-image: url(img/logo_hover.png);
+  background-image: url(/profile/img/logo.png);
 }
 #cabecera {
   position: sticky;
@@ -75,7 +75,6 @@ img {
 header li {
   font-size: 30px;
 }
-
 
 .editar {
   background-image: url(img/editar.png);
@@ -90,9 +89,6 @@ header li {
   background-image: url(img/editar.png);
 }
 
-
-
-
 .navegción {
   background-color: white;
   padding: 15px;
@@ -102,7 +98,6 @@ header li {
 .boton {
   background-color: white;
   border-color: white;
-  
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   transition: 0.1s ease-in-out;
 }
@@ -121,5 +116,4 @@ header li {
   flex-direction: row-reverse;
   justify-content: space-between;
   column-gap: 2rem;
-
 }
