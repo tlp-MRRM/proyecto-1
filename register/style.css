@@ -1,6 +1,6 @@
 body {
   color: rgb(255, 255, 255);
-  background: radial-gradient(rgb(188, 226, 113), #5fbfff);
+  background: radial-gradient(rgb(226, 226, 226), #5fbfff);
 }
 
 main {
@@ -15,8 +15,7 @@ main {
 .Register {
   display: flex;
   flex-direction: column;
-  width: 25%;
-  height: 25%;
+
   background-color: white;
   border: 22px solid;
   border-radius: 2rem;
